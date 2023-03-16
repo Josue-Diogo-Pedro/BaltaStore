@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaltaShared.Api", "BaltaShared.Api", "{95D7B413-FB04-48F8-95FA-D462600D4400}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaltaShared.Domain", "BaltaShared.Domain", "{414585F1-F56A-4797-A531-52057BFBD340}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaltaShared.Infra", "BaltaShared.Infra", "{B348C13E-6E05-4C01-8C3D-09C0C3EA4234}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaltaShared.Shared", "BaltaShared.Shared", "{94AC803D-7A03-4DDF-873C-7CB16E6A90E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaltaShared.Tests", "BaltaShared.Tests", "{FE78B77F-24EA-4771-BBD5-C982D00634FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaShared.API", "BaltaShared.API\BaltaShared.API.csproj", "{C26C0383-1B60-4709-A9B2-5E350B0956E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaShared.DOMAIN", "BaltaShared.DOMAIN\BaltaShared.DOMAIN.csproj", "{C22AC5DE-4E9F-400E-AC6C-D1F82F60C4BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaShared.INFRA", "BaltaShared.INFRA\BaltaShared.INFRA.csproj", "{CEA55DEF-B999-4088-B793-73C24ABCF60B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaShared.SHARED", "BaltaShared.SHARED\BaltaShared.SHARED.csproj", "{62EEBC51-9266-48B2-8A9A-45D691D04A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaltaShared.TESTS", "BaltaShared.TESTS\BaltaShared.TESTS.csproj", "{BC6E6AB0-2D34-4D9A-B0B7-956D6EF0826E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C26C0383-1B60-4709-A9B2-5E350B0956E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26C0383-1B60-4709-A9B2-5E350B0956E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26C0383-1B60-4709-A9B2-5E350B0956E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26C0383-1B60-4709-A9B2-5E350B0956E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22AC5DE-4E9F-400E-AC6C-D1F82F60C4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22AC5DE-4E9F-400E-AC6C-D1F82F60C4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22AC5DE-4E9F-400E-AC6C-D1F82F60C4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22AC5DE-4E9F-400E-AC6C-D1F82F60C4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA55DEF-B999-4088-B793-73C24ABCF60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA55DEF-B999-4088-B793-73C24ABCF60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA55DEF-B999-4088-B793-73C24ABCF60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA55DEF-B999-4088-B793-73C24ABCF60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62EEBC51-9266-48B2-8A9A-45D691D04A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EEBC51-9266-48B2-8A9A-45D691D04A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EEBC51-9266-48B2-8A9A-45D691D04A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EEBC51-9266-48B2-8A9A-45D691D04A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6E6AB0-2D34-4D9A-B0B7-956D6EF0826E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6E6AB0-2D34-4D9A-B0B7-956D6EF0826E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6E6AB0-2D34-4D9A-B0B7-956D6EF0826E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6E6AB0-2D34-4D9A-B0B7-956D6EF0826E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C26C0383-1B60-4709-A9B2-5E350B0956E6} = {95D7B413-FB04-48F8-95FA-D462600D4400}
+		{C22AC5DE-4E9F-400E-AC6C-D1F82F60C4BF} = {414585F1-F56A-4797-A531-52057BFBD340}
+		{CEA55DEF-B999-4088-B793-73C24ABCF60B} = {B348C13E-6E05-4C01-8C3D-09C0C3EA4234}
+		{62EEBC51-9266-48B2-8A9A-45D691D04A03} = {94AC803D-7A03-4DDF-873C-7CB16E6A90E5}
+		{BC6E6AB0-2D34-4D9A-B0B7-956D6EF0826E} = {FE78B77F-24EA-4771-BBD5-C982D00634FD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBD3238A-BC28-4687-A2E2-D3A434427BEE}
+	EndGlobalSection
+EndGlobal
