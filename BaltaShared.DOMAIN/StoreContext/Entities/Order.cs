@@ -58,7 +58,7 @@ public class Order
             if(count == 5)
             {
                 count = 1;
-                deliveries.Add((new Delivery(DateTime.Now.AddDays(5)));
+                deliveries.Add((new Delivery(DateTime.Now.AddDays(5))));
             }
             count++;
         }
